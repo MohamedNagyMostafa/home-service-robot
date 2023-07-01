@@ -1,0 +1,244 @@
+/opt/clion/237/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/237/bin/ninja/linux/x64/ninja -G Ninja -S /home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src -B /home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/cmake-build-debug-1
+-- Using CATKIN_DEVEL_PREFIX: /home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/cmake-build-debug-1/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/cmake-build-debug-1/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:48 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 21 packages in topological order:
+-- ~~  - av_robot
+-- ~~  - slam_gmapping (metapackage)
+-- ~~  - teleop_twist_keyboard
+-- ~~  - turtlebot (metapackage)
+-- ~~  - turtlebot_bringup
+-- ~~  - turtlebot_capabilities
+-- ~~  - turtlebot_dashboard
+-- ~~  - turtlebot_gazebo
+-- ~~  - turtlebot_interactions (metapackage)
+-- ~~  - turtlebot_rviz_launchers
+-- ~~  - turtlebot_simulator (metapackage)
+-- ~~  - turtlebot_stage
+-- ~~  - turtlebot_stdr
+-- ~~  - add_markers
+-- ~~  - pick_objects
+-- ~~  - gmapping
+-- ~~  - amcl
+-- ~~  - turtlebot_interactive_markers
+-- ~~  - turtlebot_teleop
+-- ~~  - move_base
+-- ~~  - turtlebot_description
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'av_robot'
+-- ==> add_subdirectory(av_robot)
+-- +++ processing catkin metapackage: 'slam_gmapping'
+-- ==> add_subdirectory(slam_gmapping/slam_gmapping)
+CMake Deprecation Warning at slam_gmapping/slam_gmapping/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'teleop_twist_keyboard'
+-- ==> add_subdirectory(teleop_twist_keyboard)
+CMake Deprecation Warning at teleop_twist_keyboard/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin metapackage: 'turtlebot'
+-- ==> add_subdirectory(turtlebot/turtlebot)
+CMake Deprecation Warning at turtlebot/turtlebot/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'turtlebot_bringup'
+-- ==> add_subdirectory(turtlebot/turtlebot_bringup)
+CMake Deprecation Warning at turtlebot/turtlebot_bringup/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'turtlebot_capabilities'
+-- ==> add_subdirectory(turtlebot/turtlebot_capabilities)
+CMake Deprecation Warning at turtlebot/turtlebot_capabilities/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'turtlebot_dashboard'
+-- ==> add_subdirectory(turtlebot_interactions/turtlebot_dashboard)
+CMake Deprecation Warning at turtlebot_interactions/turtlebot_dashboard/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'turtlebot_gazebo'
+-- ==> add_subdirectory(turtlebot_simulator/turtlebot_gazebo)
+CMake Deprecation Warning at turtlebot_simulator/turtlebot_gazebo/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin metapackage: 'turtlebot_interactions'
+-- ==> add_subdirectory(turtlebot_interactions/turtlebot_interactions)
+CMake Deprecation Warning at turtlebot_interactions/turtlebot_interactions/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'turtlebot_rviz_launchers'
+-- ==> add_subdirectory(turtlebot_interactions/turtlebot_rviz_launchers)
+CMake Deprecation Warning at turtlebot_interactions/turtlebot_rviz_launchers/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin metapackage: 'turtlebot_simulator'
+-- ==> add_subdirectory(turtlebot_simulator/turtlebot_simulator)
+CMake Deprecation Warning at turtlebot_simulator/turtlebot_simulator/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'turtlebot_stage'
+-- ==> add_subdirectory(turtlebot_simulator/turtlebot_stage)
+CMake Deprecation Warning at turtlebot_simulator/turtlebot_stage/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'turtlebot_stdr'
+-- ==> add_subdirectory(turtlebot_simulator/turtlebot_stdr)
+CMake Deprecation Warning at turtlebot_simulator/turtlebot_stdr/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'add_markers'
+-- ==> add_subdirectory(add_markers)
+-- +++ processing catkin package: 'pick_objects'
+-- ==> add_subdirectory(pick_objects)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'gmapping'
+-- ==> add_subdirectory(slam_gmapping/gmapping)
+CMake Deprecation Warning at slam_gmapping/gmapping/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'amcl'
+-- ==> add_subdirectory(amcl)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'turtlebot_interactive_markers'
+-- ==> add_subdirectory(turtlebot_interactions/turtlebot_interactive_markers)
+CMake Deprecation Warning at turtlebot_interactions/turtlebot_interactive_markers/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'turtlebot_teleop'
+-- ==> add_subdirectory(turtlebot/turtlebot_teleop)
+CMake Deprecation Warning at turtlebot/turtlebot_teleop/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'move_base'
+-- ==> add_subdirectory(move_base)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'turtlebot_description'
+-- ==> add_subdirectory(turtlebot/turtlebot_description)
+CMake Deprecation Warning at turtlebot/turtlebot_description/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/cmake-build-debug-1

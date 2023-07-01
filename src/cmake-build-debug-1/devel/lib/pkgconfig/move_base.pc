@@ -1,0 +1,8 @@
+prefix=/home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/cmake-build-debug-1/devel
+
+Name: move_base
+Description: Description of move_base
+Version: 1.17.3
+Cflags: -I/home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/cmake-build-debug-1/devel/include -I/home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/move_base/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmove_base
+Requires: dynamic_reconfigure geometry_msgs move_base_msgs nav_msgs roscpp

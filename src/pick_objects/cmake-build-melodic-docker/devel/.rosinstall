@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /tmp/pick_objects/cmake-build-melodic-docker/devel/setup.sh

@@ -1,0 +1,23 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/pick_objects
+-- Using CATKIN_DEVEL_PREFIX: /tmp/pick_objects/cmake-build-melodic-docker/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /tmp/pick_objects/cmake-build-melodic-docker/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+CMake Error at CMakeLists.txt:138 (target_link_directories):
+  Unknown CMake command "target_link_directories".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/tmp/pick_objects/cmake-build-melodic-docker/CMakeFiles/CMakeOutput.log".
+See also "/tmp/pick_objects/cmake-build-melodic-docker/CMakeFiles/CMakeError.log".

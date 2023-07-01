@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/slam_gmapping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/teleop_twist_keyboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/turtlebot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/turtlebot_interactions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/turtlebot_simulator" vcs="Git" />
+  </component>
+</project>

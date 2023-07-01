@@ -1,0 +1,8 @@
+prefix=/home/nagy/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_chase_ball/src/av_robot/cmake-build-debug/devel
+
+Name: av_robot
+Description: Description of av_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

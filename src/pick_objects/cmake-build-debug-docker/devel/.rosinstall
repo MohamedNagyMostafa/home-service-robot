@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /tmp/pick_objects/cmake-build-debug-docker/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/mohamed/Desktop/software_engineering_robotics_Udacity/projects/catkin_ws_home_service_robot/src/pick_objects/cmake-build-debug-1/devel
+
+Name: pick_objects
+Description: Description of pick_objects
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
