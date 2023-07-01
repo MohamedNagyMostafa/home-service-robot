@@ -54,7 +54,7 @@ To use this workspace, you need to have ROS installed on your system. Follow the
 
 After installing ROS, clone this repository into your catkin workspace:
 ```
-cd ~/catkin_ws/src
+mkdir ~/catkin_ws && cd ~/catkin_ws
 git clone https://github.com/MohamedNagyMostafa/home_service_workspace.git
 ```
 
